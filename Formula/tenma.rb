@@ -1,9 +1,9 @@
 class Tenma < Formula
   desc "PHP as a long-running process: the script runs once, then one event loop serves every request"
   homepage "https://tenma.dev"
-  url "https://github.com/tenma-runtime/tenma/releases/download/v0.2.4/tenma-macos-arm64.tar.gz"
-  version "0.2.4"
-  sha256 "4e584160d05eb8f80331509878b861705bab277d5fb264def7b0c69c9756bc4c"
+  url "https://github.com/tenma-runtime/tenma/releases/download/v0.2.5/tenma-macos-arm64.tar.gz"
+  version "0.2.5"
+  sha256 "295b73acc7db0f9695807a005c88364acf73f71a0838ba11f74cec518be5f46d"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
